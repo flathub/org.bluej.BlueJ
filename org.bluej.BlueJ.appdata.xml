@@ -33,6 +33,7 @@
     <kudo>HiDpiIcon</kudo>
   </kudos>
   <releases>
+    <release date="2019-04-30" version="4.2.1"/>
     <release date="2019-02-07" version="4.2.0"/>
   </releases>
   <update_contact>florian.schallenberg@googlemail.com</update_contact>
