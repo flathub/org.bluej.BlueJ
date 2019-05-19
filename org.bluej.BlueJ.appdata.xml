@@ -4,8 +4,8 @@
   <name>BlueJ</name>
   <developer_name>King's College London</developer_name>
   <summary>Java IDE for beginners</summary>
-  <metadata_license>(GPL-2.0-only WITH Classpath-exception-2.0)</metadata_license>
-  <project_license>(GPL-2.0-only WITH Classpath-exception-2.0)</project_license>
+  <!--<metadata_license>GPL-2.0-with-classpath-exception</metadata_license>-->
+  <project_license>GPL-2.0-with-classpath-exception</project_license>
   <url type="homepage">https://bluej.org</url>
   <description><p>BlueJ is a development environment that allows you to develop Java programs quickly and easily. Its main features are that it is simple, designed for teaching, interactive, portable, mature and innovative.</p></description>
   <screenshots>
