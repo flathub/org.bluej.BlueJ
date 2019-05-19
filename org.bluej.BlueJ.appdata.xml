@@ -4,22 +4,22 @@
   <name>BlueJ</name>
   <developer_name>King's College London</developer_name>
   <summary>Java IDE for beginners</summary>
-  <!--<metadata_license>GPL-2.0-with-classpath-exception</metadata_license>-->
+  <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-with-classpath-exception</project_license>
   <url type="homepage">https://bluej.org</url>
-  <description><p>BlueJ is a development environment that allows you to develop Java programs quickly and easily. Its main features are that it is simple, designed for teaching, interactive, portable, mature and innovative.</p></description>
+  <description><p>BlueJ is an education-focused interactive Java IDE. It provides a basic debugger and GUI-based method calling.</p></description>
   <screenshots>
     <screenshot type="default">
-      <caption>Scope Highlighting</caption>
-      <image>https://www.bluej.org/scope-highlighting.png</image>
+      <caption>Editor Window</caption>
+      <image>https://raw.githubusercontent.com/flathub/org.bluej.BlueJ/master/img/01.png</image>
     </screenshot>
     <screenshot>
-      <caption>Object Inspection</caption>
-      <image>https://www.bluej.org/object-inspection.png</image>
+      <caption>Main Window</caption>
+      <image>https://raw.githubusercontent.com/flathub/org.bluej.BlueJ/master/img/02.png</image>
     </screenshot>
     <screenshot>
-      <caption>Method Invocation</caption>
-      <image>https://www.bluej.org/method-invocation.png</image>
+      <caption>Property Viewer</caption>
+      <image>https://raw.githubusercontent.com/flathub/org.bluej.BlueJ/master/img/03.png</image>
     </screenshot>
   </screenshots>
   <categories>
