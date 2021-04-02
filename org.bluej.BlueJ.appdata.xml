@@ -33,6 +33,7 @@
     <kudo>HiDpiIcon</kudo>
   </kudos>
   <releases>
+    <release date="2021-01-28" version="5.0.0"/>
     <release date="2019-10-04" version="4.2.2"/>
     <release date="2019-04-30" version="4.2.1"/>
     <release date="2019-02-07" version="4.2.0"/>
