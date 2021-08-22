@@ -2,7 +2,7 @@
   "app-id" : "org.bluej.BlueJ",
   "branch" : "stable",
   "runtime" : "org.gnome.Platform",
-  "runtime-version" : "3.38",
+  "runtime-version" : "40",
   "sdk" : "org.gnome.Sdk",
   "sdk-extensions" : [ "org.freedesktop.Sdk.Extension.openjdk11" ],
   "command": "org.bluej.BlueJ",
@@ -30,8 +30,8 @@
       "build-commands": ["mkdir -p /app/javafx", "cp -r ./ /app/javafx"],
       "sources": [{
         "type": "archive",
-        "url": "https://download2.gluonhq.com/openjfx/15/openjfx-15_linux-x64_bin-sdk.zip",
-        "sha256": "8b4401644094c5e5e30e7ee00334aa1d27323aa648f2e7c8d3358208c2907b50"
+        "url": "https://download2.gluonhq.com/openjfx/16/openjfx-16_linux-x64_bin-sdk.zip",
+        "sha256": "5bd4392d0d2d6a4ddc12bedf8d912d4af17f8622f0560dbe0281f56c4f9ed14c"
       }]
     },
     {
@@ -45,9 +45,9 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "http://www.bluej.org/download/files/BlueJ-generic-500.jar",
-        "dest-filename": "BlueJ-generic-500.zip",
-        "sha256": "9d741c704bacb70b3f1a333b8f28a2f3d8128241ab1def45ba84879176e7d0af"
+        "url": "http://www.bluej.org/download/files/BlueJ-generic-502.jar",
+        "dest-filename": "BlueJ-generic-502.zip",
+        "sha256": "13d0e2b7613552cde500f4f2e46588f7bd9a65dae2b3c3d80730b09bc87ce9dd"
       }]
     },
     {
