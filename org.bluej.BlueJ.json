@@ -1,22 +1,19 @@
 {
   "app-id" : "org.bluej.BlueJ",
   "branch" : "stable",
-  "runtime" : "org.gnome.Platform",
-  "runtime-version" : "40",
-  "sdk" : "org.gnome.Sdk",
-  "sdk-extensions" : [ "org.freedesktop.Sdk.Extension.openjdk11" ],
+  "runtime" : "org.freedesktop.Platform",
+  "runtime-version" : "21.08",
+  "sdk": "org.freedesktop.Sdk",
+  "sdk-extensions": ["org.freedesktop.Sdk.Extension.openjdk11"],
   "command": "org.bluej.BlueJ",
   "finish-args" : [
     "--env=PATH=/app/jre/bin:/usr/bin:/app/bin",
     "--share=network",
     "--socket=x11",
     "--share=ipc",
-    "--socket=wayland",
     "--device=dri",
     "--socket=pulseaudio",
-    "--filesystem=host",
-    "--filesystem=xdg-run/dconf", "--filesystem=~/.config/dconf:ro",
-    "--talk-name=ca.desrt.dconf", "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+    "--filesystem=host"
   ],
   "modules" : [
     {
@@ -25,14 +22,16 @@
       "build-commands" : [ "/usr/lib/sdk/openjdk11/install.sh" ]
     },
     {
-      "name" : "javafx",
-      "buildsystem" : "simple",
+      "name": "javafx",
+      "buildsystem": "simple",
       "build-commands": ["mkdir -p /app/javafx", "cp -r ./ /app/javafx"],
-      "sources": [{
-        "type": "archive",
-        "url": "https://download2.gluonhq.com/openjfx/16/openjfx-16_linux-x64_bin-sdk.zip",
-        "sha256": "5bd4392d0d2d6a4ddc12bedf8d912d4af17f8622f0560dbe0281f56c4f9ed14c"
-      }]
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://download2.gluonhq.com/openjfx/11/openjfx-11_linux-x64_bin-sdk.zip",
+          "sha256": "737ff0a20cf4d11dce93c2bdba342274e5b363e4c0e8d1548d3ba5d539a717d9"
+        }
+      ]
     },
     {
       "name": "bluej",
@@ -45,9 +44,9 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "http://www.bluej.org/download/files/BlueJ-generic-502.jar",
-        "dest-filename": "BlueJ-generic-502.zip",
-        "sha256": "13d0e2b7613552cde500f4f2e46588f7bd9a65dae2b3c3d80730b09bc87ce9dd"
+        "url": "http://www.bluej.org/download/files/BlueJ-generic-503.jar",
+        "dest-filename": "BlueJ-generic-503.zip",
+        "sha256": "baf54371c9fc75b20cb8b67b76d37c8ebf545a1e243aea5b3422621ce7087fab"
       }]
     },
     {
