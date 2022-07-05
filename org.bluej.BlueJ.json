@@ -9,7 +9,8 @@
   "finish-args" : [
     "--env=PATH=/app/jre/bin:/usr/bin:/app/bin",
     "--share=network",
-    "--socket=x11",
+    "--socket=fallback-x11",
+    "--socket=wayland",
     "--share=ipc",
     "--device=dri",
     "--socket=pulseaudio",
