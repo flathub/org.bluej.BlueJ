@@ -25,13 +25,13 @@
       "build-commands" : [ "/usr/lib/sdk/openjdk11/install.sh" ]
     },
     {
-      "name" : "javafx",
-      "buildsystem" : "simple",
+      "name": "javafx",
+      "buildsystem": "simple",
       "build-commands": ["mkdir -p /app/javafx", "cp -r ./ /app/javafx"],
       "sources": [{
         "type": "archive",
-        "url": "https://download2.gluonhq.com/openjfx/16/openjfx-16_linux-x64_bin-sdk.zip",
-        "sha256": "5bd4392d0d2d6a4ddc12bedf8d912d4af17f8622f0560dbe0281f56c4f9ed14c"
+        "url": "https://download2.gluonhq.com/openjfx/11/openjfx-11_linux-x64_bin-sdk.zip",
+        "sha256": "737ff0a20cf4d11dce93c2bdba342274e5b363e4c0e8d1548d3ba5d539a717d9"
       }]
     },
     {
