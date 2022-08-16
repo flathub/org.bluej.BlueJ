@@ -2,7 +2,7 @@
   "app-id" : "org.bluej.BlueJ",
   "branch" : "stable",
   "runtime" : "org.gnome.Platform",
-  "runtime-version" : "40",
+  "runtime-version" : "42",
   "sdk" : "org.gnome.Sdk",
   "sdk-extensions" : [ "org.freedesktop.Sdk.Extension.openjdk11" ],
   "command": "org.bluej.BlueJ",
@@ -45,9 +45,9 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "http://www.bluej.org/download/files/BlueJ-generic-502.jar",
-        "dest-filename": "BlueJ-generic-502.zip",
-        "sha256": "13d0e2b7613552cde500f4f2e46588f7bd9a65dae2b3c3d80730b09bc87ce9dd"
+        "url": "http://www.bluej.org/download/files/BlueJ-generic-503.jar",
+        "dest-filename": "BlueJ-generic-503.zip",
+        "sha256": "baf54371c9fc75b20cb8b67b76d37c8ebf545a1e243aea5b3422621ce7087fab"
       }]
     },
     {
