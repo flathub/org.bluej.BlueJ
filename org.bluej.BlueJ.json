@@ -45,9 +45,9 @@
       ],
       "sources": [{
         "type": "archive",
-        "url": "http://www.bluej.org/download/files/BlueJ-generic-503.jar",
-        "dest-filename": "BlueJ-generic-503.zip",
-        "sha256": "baf54371c9fc75b20cb8b67b76d37c8ebf545a1e243aea5b3422621ce7087fab"
+        "url": "http://www.bluej.org/download/files/BlueJ-generic-510.jar",
+        "dest-filename": "BlueJ-generic-510.zip",
+        "sha256": "c81e6b725e88126ca84d6df65e90299544a87b846b9675e95e76f33e4436f18c"
       }]
     },
     {
