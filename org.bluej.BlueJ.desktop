@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=BlueJ
+Comment=Java IDE for beginners
 Exec=org.bluej.BlueJ
 Type=Application
 Icon=org.bluej.BlueJ
-Categories=Development;Education;
+Categories=Development;Java;Education;
