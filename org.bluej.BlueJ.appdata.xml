@@ -5,8 +5,13 @@
   <developer_name>King's College London</developer_name>
   <summary>Java IDE for beginners</summary>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-2.0-with-classpath-exception</project_license>
+  <project_license>GPL-2.0-or-later</project_license>
   <url type="homepage">https://bluej.org</url>
+  <url type="bugtracker">https://github.com/k-pet-group/BlueJ-Greenfoot/issues</url>
+  <url type="faq">https://www.bluej.org/faq.html</url>
+  <url type="help">https://www.bluej.org/doc/documentation.html</url>
+  <url type="contact">https://www.bluej.org/support.html</url>
+  <url type="vcs-browser">https://github.com/k-pet-group/BlueJ-Greenfoot</url>
   <description><p>BlueJ is an education-focused interactive Java IDE. It provides a basic debugger and GUI-based method calling.</p></description>
   <screenshots>
     <screenshot type="default">
@@ -26,9 +31,9 @@
     <category>Development</category>
     <category>Education</category>
   </categories>
-  <icon type="remote" height="256" width="256">https://www.bluej.org/bluej-icons/bluej-256.jpg</icon>
-  <icon type="remote" height="128" width="128">https://www.bluej.org/bluej-icons/bluej-128.jpg</icon>
-  <icon type="remote" height="64" width="64">https://www.bluej.org/bluej-icons/bluej-64.jpg</icon>
+  <icon type="remote" height="256" width="256">https://web.archive.org/web/20100703075535if_/http://www.bluej.org/bluej-icons/bluej-256.jpg</icon>
+  <icon type="remote" height="128" width="128">https://web.archive.org/web/20150323001255if_/http://www.bluej.org/bluej-icons/bluej-128.jpg</icon>
+  <icon type="remote" height="64" width="64">https://web.archive.org/web/20100703075900if_/http://www.bluej.org/bluej-icons/bluej-64.jpg</icon>
   <kudos>
     <kudo>HiDpiIcon</kudo>
   </kudos>
