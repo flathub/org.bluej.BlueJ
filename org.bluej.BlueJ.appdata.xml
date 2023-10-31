@@ -12,7 +12,7 @@
   <url type="help">https://www.bluej.org/doc/documentation.html</url>
   <url type="contact">https://www.bluej.org/support.html</url>
   <url type="vcs-browser">https://github.com/k-pet-group/BlueJ-Greenfoot</url>
-  <description><p>BlueJ is an education-focused interactive Java IDE. It provides a basic debugger and GUI-based method calling.</p></description>
+  <description><p>BlueJ is an education-focused interactive Java IDE. It provides a basic debugger and GUI-based method calling. It is licensed under the GPL 2.0 with the Classpath Exception.</p></description>
   <screenshots>
     <screenshot type="default">
       <caption>Editor Window</caption>
