@@ -5,14 +5,14 @@
   <developer_name>King's College London</developer_name>
   <summary>Java IDE for beginners</summary>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-2.0-with-classpath-exception</project_license>
+  <project_license>GPL-2.0-or-later</project_license>
   <url type="homepage">https://bluej.org</url>
   <url type="bugtracker">https://github.com/k-pet-group/BlueJ-Greenfoot/issues</url>
   <url type="faq">https://www.bluej.org/faq.html</url>
   <url type="help">https://www.bluej.org/doc/documentation.html</url>
   <url type="contact">https://www.bluej.org/support.html</url>
   <url type="vcs-browser">https://github.com/k-pet-group/BlueJ-Greenfoot</url>
-  <description><p>BlueJ is an education-focused interactive Java IDE. It provides a basic debugger and GUI-based method calling.</p></description>
+  <description><p>BlueJ is an education-focused interactive Java IDE. It provides a basic debugger and GUI-based method calling. It is licensed under the GPL 2.0 with the Classpath Exception.</p></description>
   <screenshots>
     <screenshot type="default">
       <caption>Editor Window</caption>
