@@ -125,7 +125,8 @@
           "dest": "offline-repository/kr/motd/maven/os-maven-plugin/1.7.1",
           "dest-filename": "os-maven-plugin-1.7.1.pom"
         },
-        "dependencies.json"
+        "dependencies.json",
+        "dependencies-aarch64.json"
       ]
     },
     {
